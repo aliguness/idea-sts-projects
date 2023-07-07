@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óò¨ñúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿ä†™ûÿÿÿÿ
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(èº¯é
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Á’½
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·…Òûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ö“Ò×ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(’‘ä±üÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(İ»Ú
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ½ìê

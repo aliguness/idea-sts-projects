@@ -1,0 +1,12 @@
+
+„
+java:S1488Q"gImmediately return this expression instead of assigning it to the temporary variable "uretilenSecenek".(ÛŸš8éàÆ1
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(·èÓüÿÿÿÿ8éàÆ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£İôŒ8éàÆ1
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(²óºQ8 éàÆ1
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8 éàÆ1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ğµ¼¡üÿÿÿÿ8 éàÆ1
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8õëáÆ1
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(Šâê8éæÆ1
+K
+java:S2140P")Use "java.util.Random.nextInt()" instead.(õ½‰ºşÿÿÿÿ8¡éàÆ1

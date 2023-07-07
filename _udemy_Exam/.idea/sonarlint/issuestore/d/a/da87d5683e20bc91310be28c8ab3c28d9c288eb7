@@ -1,0 +1,14 @@
+
+y
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "ekok".(²¢ı8ÓÜù¿1
+F
+java:S1659")Declare "ikiniciSayi" on a separate line.(ºÕü´8éÜù¿1
+X	java:S125	"<This block of commented-out lines of code should be removed.( ÀëÈ8ÅÂû¿1
+]	java:S125"<This block of commented-out lines of code should be removed.(Ç–®üüÿÿÿÿ8‚îı¿1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(øº»şûÿÿÿÿ8ëÜù¿1
+]	java:S125"<This block of commented-out lines of code should be removed.(õèÏÏıÿÿÿÿ8òş¿1
+]	java:S125"<This block of commented-out lines of code should be removed.(Å×İıùÿÿÿÿ8êÜù¿1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(üæ‘ıøÿÿÿÿ8ëÜù¿1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ŞËÜêÿÿÿÿÿ8ÍÓü¿1
+T
+java:S1144."2Remove this unused private "klasikEkokBul" method.(÷äáøÿÿÿÿ8ÈÂû¿1

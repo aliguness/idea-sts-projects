@@ -1,0 +1,51 @@
+
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…û§ò8…™šÂ‘1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊâÜ_8ˆ™šÂ‘1
+m
+java:S3655\"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÚÅã8‘™šÂ‘1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ë‚ŒÊşÿÿÿÿ8•™šÂ‘1
+o
+java:S6204'"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÓĞ‘8•™šÂ‘1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Î§Øùÿÿÿÿ8–™šÂ‘1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(«øï‡ùÿÿÿÿ8–™šÂ‘1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(Ü†”8–™šÂ‘1
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(øì¼Ÿ8–™šÂ‘1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¹‚¡Íÿÿÿÿÿ8—™šÂ‘1
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Öß«¦8—™šÂ‘1
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(õ¹ª²8—™šÂ‘1
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(—›­¤ùÿÿÿÿ8—™šÂ‘1
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(°²­Ôÿÿÿÿÿ8˜™šÂ‘1
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(™¦ªÕ8˜™šÂ‘1
+o
+java:S6204?"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8˜™šÂ‘1
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(¹Êáøÿÿÿÿ8˜™šÂ‘1
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(³°Îõ8˜™šÂ‘1
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(ÕÂßúÿÿÿÿ8™™šÂ‘1
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ùüêŒúÿÿÿÿ8™™šÂ‘1
+o
+java:S6204H"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8™™šÂ‘1
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(—£¹ƒ8š™šÂ‘1
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(äæ×Â8š™šÂ‘1
+o
+java:S6204O"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ü§À 8š™šÂ‘1
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ë±üşúÿÿÿÿ8š™šÂ‘1
+U	java:S106R"9Replace this use of System.out or System.err by a logger.(ÁÃ×ê8š™šÂ‘1
+o
+java:S6204T"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8š™šÂ‘1
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(°æœÇşÿÿÿÿ8›™šÂ‘1
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(§±®Ë8›™šÂ‘1
+U	java:S106Y"9Replace this use of System.out or System.err by a logger.(¦ª¢‡8›™šÂ‘1
+U	java:S106["9Replace this use of System.out or System.err by a logger.(è—™8›™šÂ‘1
+T	java:S106]"9Replace this use of System.out or System.err by a logger.(Ï³Üj8œ™šÂ‘1
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(¯‡ˆ–üÿÿÿÿ8œ™šÂ‘1
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(¨´½8œ™šÂ‘1
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(™ÛîÜùÿÿÿÿ8œ™šÂ‘1
+o
+java:S6204e"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ã—©ù8œ™šÂ‘1
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(²—Ñ¿8™šÂ‘1
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ï¶şÕüÿÿÿÿ8™šÂ‘1
+o
+java:S6204j"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8™šÂ‘1
+U	java:S106k"9Replace this use of System.out or System.err by a logger.(ƒÔÌÃ8™šÂ‘1
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(«Ãñ’øÿÿÿÿ8™šÂ‘1
+U	java:S106p"9Replace this use of System.out or System.err by a logger.(Í¢úÑ8™šÂ‘1

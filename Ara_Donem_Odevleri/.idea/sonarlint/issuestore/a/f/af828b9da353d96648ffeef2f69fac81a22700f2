@@ -1,0 +1,59 @@
+
+f
+java:S1192ğ"HDefine a constant instead of duplicating this literal "GÃ¼neÅŸ" 6 times.(£àÂ8Ú”Á‘1
+
+java:S1192 "dDefine a constant instead of duplicating this literal "LÃ¼tfen yapÄ±lacak iÅŸlemi seÃ§iniz" 3 times.(İ¬›8òì‰Á‘1
+d
+java:S1192¸"MDefine a constant instead of duplicating this literal "0. Ã‡Ä±kÄ±ÅŸ" 4 times.(¦­ö
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñåşÿÿÿÿ
+k
+java:S3655{"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğÒ¬ùÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(¬…À
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(éÁ·Êøÿÿÿÿ
+c	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹îÿû
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(Ãé™Ìøÿÿÿÿ
+7
+java:S1116^"Remove this empty statement.(Ãé™Ìøÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(÷æ ÿÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(ı‚Õ
+2
+java:S1116l"Remove this empty statement.(ı‚Õ
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(¢ÅØœúÿÿÿÿ
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(¹òîä
+O	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(´Õêì
+T	java:S106"9Replace this use of System.out or System.err by a logger.(—Í·ğÿÿÿÿÿ
+N	java:S106©"9Replace this use of System.out or System.err by a logger.(Íˆ˜
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(üœÈÂıÿÿÿÿ
+T	java:S106Ù"9Replace this use of System.out or System.err by a logger.(³ÿí©üÿÿÿÿ
+d	java:S100å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¹Ø
+R
+java:S1117è"6Rename "ad" which hides the field declared at line 13.(§±†”ùÿÿÿÿ
+O	java:S106ï"9Replace this use of System.out or System.err by a logger.(Ê¦²‰
+O	java:S106ö"9Replace this use of System.out or System.err by a logger.(è®
+R
+java:S1117ş"6Rename "ad" which hides the field declared at line 13.(ìœŸ§øÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(—ÏıÄıÿÿÿÿ
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(Ğä’
+O	java:S106µ"9Replace this use of System.out or System.err by a logger.(ƒìêñ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(¹í¬˜şÿÿÿÿ
+T	java:S106·"9Replace this use of System.out or System.err by a logger.(Åêñûÿÿÿÿ
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(¦­ö
+O	java:S106¼"9Replace this use of System.out or System.err by a logger.(¿Æãš
+N	java:S106½"9Replace this use of System.out or System.err by a logger.(Õ¦¨A
+T	java:S106¾"9Replace this use of System.out or System.err by a logger.(‡ØÒŸşÿÿÿÿ
+O	java:S106¿"9Replace this use of System.out or System.err by a logger.(‘¦­£
+T	java:S106À"9Replace this use of System.out or System.err by a logger.(‘¨ìîÿÿÿÿÿ
+O	java:S106Á"9Replace this use of System.out or System.err by a logger.(¦­ö
+O	java:S106Å"9Replace this use of System.out or System.err by a logger.(¨ä¿§
+O	java:S106Æ"9Replace this use of System.out or System.err by a logger.( à™
+O	java:S106Ç"9Replace this use of System.out or System.err by a logger.(¦­ö
+T	java:S106Ë"9Replace this use of System.out or System.err by a logger.(øÄÏ§øÿÿÿÿ
+O	java:S106Ì"9Replace this use of System.out or System.err by a logger.(¶Òš
+O	java:S106Í"9Replace this use of System.out or System.err by a logger.(›’¸
+O	java:S106Î"9Replace this use of System.out or System.err by a logger.(£ã·è
+O	java:S106Ï"9Replace this use of System.out or System.err by a logger.(Ú·´Ë
+T	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(ÿûŞ—øÿÿÿÿ
+O	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(¦­ö
+A
+java:S1068"&Remove this unused "ad" private field.(Ñ‚¼öøÿÿÿÿ

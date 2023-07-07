@@ -1,0 +1,11 @@
+
+G
+java:S1197"*Move the array designators [] to the type.(€°æ–8ıóÊ¢1
+]	java:S125	"<This block of commented-out lines of code should be removed.(×¢úÒùÿÿÿÿ8ıóÊ¢1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ºƒ¥8şóÊ¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í•‘Œşÿÿÿÿ8şóÊ¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ü—ø©ÿÿÿÿÿ8€ôÊ¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸©ïˆúÿÿÿÿ8é®Ì¢1
+K
+java:S2140/")Use "java.util.Random.nextInt()" instead.(ášëÊûÿÿÿÿ8ÿóÊ¢1
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(ÿÑğ8êŸ×¢1

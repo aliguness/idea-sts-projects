@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="jsonEditor">
+    <option name="stateMap">
+      <map>
+        <entry key="_052_Java_JSON_Parse" value="{&#10;&#9;&quot;name&quot;:&quot;zhengtao&quot;,&#10;&#9;&quot;age&quot;:18,&#10;&#9;&quot;isHandsome&quot;:true,&#10;&#9;&quot;email&quot;:&quot;hj_zhengt@163.com&quot;,&#10;&#9;&quot;timestamp&quot;:1598963565962,&#10;&#9;&quot;oneDate&quot;:&quot;2009-09-01 14:22:41&quot;,&#10;&#9;&quot;birthday&quot;:&quot;1991-10-01&quot;,&#10;&#9;&quot;address&quot;:{&#10;&#9;&#9;&quot;country&quot;:&quot;Turkey&quot;,&#10;&#9;&#9;&quot;province&quot;:&quot;AnHui&quot;,&#10;&#9;&#9;&quot;city&quot;:&quot;MingGuang&quot;&#10;&#9;},&#10;&#9;&quot;hobbys&quot;:[&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;order&quot;:&quot;first&quot;,&#10;&#9;&#9;&#9;&quot;name&quot;:&quot;coding&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;order&quot;:&quot;second&quot;,&#10;&#9;&#9;&#9;&quot;name&quot;:&quot;fishing&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;order&quot;:&quot;third&quot;,&#10;&#9;&#9;&#9;&quot;name&quot;:&quot;whatever&quot;&#10;&#9;&#9;}&#10;&#9;]&#10;}" />
+      </map>
+    </option>
+  </component>
+</project>

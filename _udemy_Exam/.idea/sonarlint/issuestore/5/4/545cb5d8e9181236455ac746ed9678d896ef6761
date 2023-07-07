@@ -1,0 +1,7 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôøÊ¾ıÿÿÿÿ8áò¬—1
+F
+java:S1197"*Move the array designators [] to the type.(€¸”$8òò¬—1
+K
+java:S2140	")Use "java.util.Random.nextInt()" instead.(‹Ÿ£ûÿÿÿÿ8òò¬—1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¥ë¾¼ÿÿÿÿÿ8óò¬—1
