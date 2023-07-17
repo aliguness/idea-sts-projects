@@ -1,0 +1,11 @@
+
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8ŒóÔı”1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¬ŒÈ­8ŒóÔı”1
+O
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8óÔı”1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(Âìíûÿÿÿÿ8óÔı”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Â™Ä›8óÔı”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8óÔı”1

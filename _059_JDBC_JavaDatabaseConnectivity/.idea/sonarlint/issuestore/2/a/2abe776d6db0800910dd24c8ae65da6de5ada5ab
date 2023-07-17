@@ -1,0 +1,14 @@
+
+w
+java:S1192"ZUse already-defined constant 'DB_DRIVER_CLASS_NAME' instead of duplicating its value here.(Ôœµû8¼èÄı”1
+z
+java:S1450	"XRemove the "resultSet" field and declare it as a local variable in the relevant methods.(¿ˆ°úÿÿÿÿ8ÌèÄı”1
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(Ôœµû8ĞèÄı”1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(¶•Àıÿÿÿÿ8ÒèÄı”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8ÒèÄı”1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8ÔèÄı”1
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Ü§‰‚8ØèÄı”1
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(Ü§‰‚8ÚèÄı”1
+]	java:S125H"<This block of commented-out lines of code should be removed.(áüŞÅşÿÿÿÿ8ÛèÄı”1

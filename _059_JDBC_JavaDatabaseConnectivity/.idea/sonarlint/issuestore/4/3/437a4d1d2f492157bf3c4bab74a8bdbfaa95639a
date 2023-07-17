@@ -1,0 +1,12 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨ûÊûÿÿÿÿ8ÈìØı”1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8‘íØı”1
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¶•Àıÿÿÿÿ8‘íØı”1
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(˜ÒäÙ8•íØı”1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(¶•Àıÿÿÿÿ8•íØı”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Â™Ä›8–íØı”1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8—íØı”1

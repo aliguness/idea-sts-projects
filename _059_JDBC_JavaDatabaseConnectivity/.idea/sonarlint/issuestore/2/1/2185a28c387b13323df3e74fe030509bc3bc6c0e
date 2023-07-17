@@ -1,0 +1,13 @@
+
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8ËÖı”1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¬ŒÈ­8ËÖı”1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(Âìíûÿÿÿÿ8ĞÖı”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ‹£ùÿÿÿÿ8ĞÖı”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8ÑÖı”1
+T
+java:S3972"7Move this "if" to a new line or add the missing "else".(ê†Ó¸8ÑÖı”1
+Y
+java:S3972 "7Move this "if" to a new line or add the missing "else".(ÒŸÙ°ıÿÿÿÿ8ÒÖı”1

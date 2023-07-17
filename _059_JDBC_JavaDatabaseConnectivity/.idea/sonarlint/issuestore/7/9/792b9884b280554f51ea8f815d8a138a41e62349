@@ -1,0 +1,14 @@
+
+‘
+java:S1192"tDefine a constant instead of duplicating this literal "INSERT INTO public.tblmusteri(ad, soyadi, aciklama)" 3 times.(ÿÛåĞ8¢áÍı”1
+i
+java:S2095#"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8†âÍı”1
+j
+java:S2095!"HUse try-with-resources or close this "Connection" in a "finally" clause.(¶•Àıÿÿÿÿ8†âÍı”1
+J
+java:S4925 "-Remove this "Class.forName()", it is useless.(˜ÒäÙ8ŠâÍı”1
+X
+java:S6437!"6Revoke and change this password, as it is compromised.(¶•Àıÿÿÿÿ8ŠâÍı”1
+X	java:S125%"<This block of commented-out lines of code should be removed.(ïÓüä8‹âÍı”1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(Â™Ä›8‹âÍı”1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(ñ¬èÀşÿÿÿÿ8ŒâÍı”1

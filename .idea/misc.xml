@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/streamOdev/pom.xml" />
+        <option value="$PROJECT_DIR$/_029_Vector/pom.xml" />
+        <option value="$PROJECT_DIR$/_043_Lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/_049_Stream/pom.xml" />
+        <option value="$PROJECT_DIR$/_099_deneme/pom.xml" />
+        <option value="$PROJECT_DIR$/_udemy_Exam/pom.xml" />
+        <option value="$PROJECT_DIR$/OkulYonetimi/pom.xml" />
+        <option value="$PROJECT_DIR$/_032_Iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/_038_Generics/pom.xml" />
+        <option value="$PROJECT_DIR$/_047_Optional/pom.xml" />
+        <option value="$PROJECT_DIR$/_044_StreamAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/_045_TarihSaat/pom.xml" />
+        <option value="$PROJECT_DIR$/_017_MirasOrnek/pom.xml" />
+        <option value="$PROJECT_DIR$/_030_StackYigin/pom.xml" />
+        <option value="$PROJECT_DIR$/_042_InnerClass/pom.xml" />
+        <option value="$PROJECT_DIR$/_014_Composition/pom.xml" />
+        <option value="$PROJECT_DIR$/_018_MirasOrnek2/pom.xml" />
+        <option value="$PROJECT_DIR$/_031_QueueKuyruk/pom.xml" />
+        <option value="$PROJECT_DIR$/_019_Polimorphism/pom.xml" />
+        <option value="$PROJECT_DIR$/_015_Encapsulation/pom.xml" />
+        <option value="$PROJECT_DIR$/_037_ProjeMimarisi/pom.xml" />
+        <option value="$PROJECT_DIR$/_039_GenericsClass/pom.xml" />
+        <option value="$PROJECT_DIR$/_041_BoundedTipler/pom.xml" />
+        <option value="$PROJECT_DIR$/Ara_Donem_Odevleri/pom.xml" />
+        <option value="$PROJECT_DIR$/_023_InterfaceArayuz/pom.xml" />
+        <option value="$PROJECT_DIR$/_036_OOP_UcakProjesi/pom.xml" />
+        <option value="$PROJECT_DIR$/_052_Java_JSON_Parse/pom.xml" />
+        <option value="$PROJECT_DIR$/_40_GenericsMetotlar/pom.xml" />
+        <option value="$PROJECT_DIR$/_033_KoleksiyonlarSet/pom.xml" />
+        <option value="$PROJECT_DIR$/_020_ProtectedKorumali/pom.xml" />
+        <option value="$PROJECT_DIR$/_046_HatalarIstisnalar/pom.xml" />
+        <option value="$PROJECT_DIR$/_049_StreamApiOrnekler/pom.xml" />
+        <option value="$PROJECT_DIR$/_054_ConcurrencyThread/pom.xml" />
+        <option value="$PROJECT_DIR$/_055_CleanCodeTemizKod/pom.xml" />
+        <option value="$PROJECT_DIR$/_057_TasarimSablonlari/pom.xml" />
+        <option value="$PROJECT_DIR$/_022_AbstractSoyutSinif/pom.xml" />
+        <option value="$PROJECT_DIR$/_028_ListelerForDongusu/pom.xml" />
+        <option value="$PROJECT_DIR$/_048_OtoKiralamaProjesi/pom.xml" />
+        <option value="$PROJECT_DIR$/_051_DosyalarOkumaYazma/pom.xml" />
+        <option value="$PROJECT_DIR$/_027_ListelerOkulProjesi/pom.xml" />
+        <option value="$PROJECT_DIR$/_016_InheritanceMirasKalitim/pom.xml" />
+        <option value="$PROJECT_DIR$/_021_CokBicimlilikNesneOrnegi/pom.xml" />
+        <option value="$PROJECT_DIR$/_026_CollentionsKoleksiyonlar/pom.xml" />
+        <option value="$PROJECT_DIR$/_024_InterfaceArayuuzVeteriner/pom.xml" />
+        <option value="$PROJECT_DIR$/_50_Ozellestirilmis_Istisnalar/pom.xml" />
+        <option value="$PROJECT_DIR$/_058_SQL_StructuredQueryLanguage/pom.xml" />
+        <option value="$PROJECT_DIR$/_053_SerializationDeserialization/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

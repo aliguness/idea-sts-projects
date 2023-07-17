@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_022_AbstractSoyutSinif" />
+        <module name="_033_KoleksiyonlarSet" />
+        <module name="_udemy_Exam" />
+        <module name="_043_Lambda" />
+        <module name="_044_StreamAPI" />
+        <module name="_019_Polimorphism" />
+        <module name="_020_ProtectedKorumali" />
+        <module name="_048_OtoKiralamaProjesi" />
+        <module name="_039_GenericsClass" />
+        <module name="_057_TasarimSablonlari" />
+        <module name="_026_CollentionsKoleksiyonlar" />
+        <module name="_041_BoundedTipler" />
+        <module name="_032_Iterator" />
+        <module name="_046_HatalarIstisnalar" />
+        <module name="_045_TarihSaat" />
+        <module name="_038_Generics" />
+        <module name="_016_InheritanceMirasKalitim" />
+        <module name="_021_CokBicimlilikNesneOrnegi" />
+        <module name="_047_Optional" />
+        <module name="_029_Vector" />
+        <module name="_018_MirasOrnek2" />
+        <module name="_051_DosyalarOkumaYazma" />
+        <module name="_049_StreamApiOrnekler (1)" />
+        <module name="_054_ConcurrencyThread" />
+        <module name="_015_Encapsulation" />
+        <module name="_50_Ozellestirilmis_Istisnalar" />
+        <module name="streamOdev" />
+        <module name="_058_SQL_StructuredQueryLanguage" />
+        <module name="_030_StackYigin" />
+        <module name="_052_Java_JSON_Parse" />
+        <module name="_053_SerializationDeserialization" />
+        <module name="_099_deneme" />
+        <module name="_023_InterfaceArayuz" />
+        <module name="_017_MirasOrnek" />
+        <module name="_024_InterfaceArayuuzVeteriner" />
+        <module name="_037_ProjeMimarisi" />
+        <module name="_40_GenericsMetotlar" />
+        <module name="_027_ListelerOkulProjesi" />
+        <module name="Ara_Donem_Odevleri" />
+        <module name="_028_ListelerForDongusu" />
+        <module name="_014_Composition" />
+        <module name="_055_CleanCodeTemizKod" />
+        <module name="_042_InnerClass" />
+        <module name="_036_OOP_UcakProjesi" />
+        <module name="_049_StreamApiOrnekler (2)" />
+        <module name="OkulYonetimi" />
+        <module name="_031_QueueKuyruk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_049_StreamApiOrnekler" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

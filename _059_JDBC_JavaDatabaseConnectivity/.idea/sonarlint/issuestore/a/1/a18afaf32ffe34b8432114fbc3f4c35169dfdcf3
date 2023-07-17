@@ -1,0 +1,7 @@
+
+‘
+java:S1192"tDefine a constant instead of duplicating this literal "INSERT INTO public.tblmusteri(ad, soyadi, aciklama)" 3 times.(ÿÛåĞ8¸õÃı”1
+]	java:S125""<This block of commented-out lines of code should be removed.(öÕğøÿÿÿÿ8ÇõÃı”1
+X	java:S125*"<This block of commented-out lines of code should be removed.(î¢†ä8ÇõÃı”1
+X	java:S1252"<This block of commented-out lines of code should be removed.(’¢—°8ÇõÃı”1
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(Â™Ä›8ÈõÃı”1
