@@ -1,28 +1,32 @@
 package com.aligunes.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
-//@Entity
-//@Table (name = "CUSTOMER")
+@Entity
+@Table (name = "CUSTOMER")
 public class Customer {
 
-    //  @Id
-    //  @GeneratedValue(strategy = GenerationType.IDENTITY )
-    //  @Column (name = "ID", nullable = false)
+    @Id // Id değeri verir. Primary Key (PK)
+    @GeneratedValue(strategy = GenerationType.IDENTITY )
+    @Column (name = "ID", nullable = false)
     private int id;
 
-    //   @Column(name = "FIRST_NAME" , length = 40 , nullable = false)
+    @Basic // bu kolon tabloda mutlaka olacak
+    @Column(name = "FIRST_NAME" , length = 40 , nullable = false)
     private String firstname;
 
-    //  @Column(name = "LAST_NAME" , length = 60)
+    @Transient // Bu alani kolun sutun bunu gormezden gel.
+    @Column(name = "LAST_NAME" , length = 60)
     private String lastname;
 
-    //  @Column(name = "ADDRESS" , length = 30)
+    @Lob // Large Obje
+    @Column(name = "ADDRESS")
     private String address;
 
-    //  @Column(name = "CREATION_DATE")
+    @Temporal(TemporalType.DATE) // Sadece Tarih verisini formatladik.
+    @Column(name = "CREATION_DATE")
     private Date creationDate;
-
 
     public Customer() {
     }

@@ -14,9 +14,7 @@
         <property name = "hibernate.format_sql">true</property>
         <property name = "hibernate.hbm2ddl.auto">create</property>
 
-        <!--    <mapping class="com.aligunes.model.Customer"/> -->
-
-        <mapping resource="com/aligunes/model/Customer.hbm.xml"/>
+        <mapping class="com.aligunes.model.Customer"/>
 
     </session-factory>
 </hibernate-configuration>
