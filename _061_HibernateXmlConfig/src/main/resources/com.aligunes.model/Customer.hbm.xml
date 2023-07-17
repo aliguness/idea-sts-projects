@@ -4,7 +4,7 @@
 
 <hibernate-mapping>
 
-    <class name="com.mimaraslan.model.Customer" table="CUSTOMER">
+    <class name="com.aligunes.model.Customer" table="CUSTOMER">
 
         <id name ="id" type="int">
             <column name = "ID"  not-null= "false"/>

@@ -28,7 +28,7 @@ public class AppMain {
 
         } catch (HibernateException e){
             transaction.rollback();
-            System.out.println("Hata: he." + e);
+            System.out.println("Hata: " + e);
         }
         finally {
             session.close();

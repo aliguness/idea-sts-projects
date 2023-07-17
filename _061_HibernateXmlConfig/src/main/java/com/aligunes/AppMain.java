@@ -19,7 +19,6 @@ public class AppMain {
         customer.setCreationDate(new Date());
 
         Customer customer2 = new Customer("Engin", "Ertikmen", "Adana", new Date());
-
         Session session= HibernateUtil.getSessionFactory().openSession();
 
         Transaction transaction=null;

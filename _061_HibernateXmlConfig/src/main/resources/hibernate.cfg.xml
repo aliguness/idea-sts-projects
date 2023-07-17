@@ -16,7 +16,7 @@
 
         <!--    <mapping class="com.aligunes.model.Customer"/> -->
 
-        <mapping resource="com/aligunes/model/Customer.hbm.xml"/>
+        <mapping resource="com.aligunes.model/Customer.hbm.xml"/>
 
     </session-factory>
 </hibernate-configuration>
