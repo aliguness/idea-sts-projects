@@ -7,7 +7,7 @@ import org.hibernate.Transaction;
 import java.util.List;
 
 public class StudentDao {
-    public void getSaveStudent(Student student) {
+    public void saveStudent(Student student) {
         Transaction transaction = null;
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -15,7 +15,7 @@ public class StudentDao {
             session.save(student);
             transaction.commit();
         } catch (Exception e) {
-
+            System.out.println("Hata: "+ e);
             if (transaction != null) {
                 transaction.rollback();
             }
