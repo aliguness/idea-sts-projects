@@ -1,4 +1,4 @@
-package com.aligunes;
+package com.aligunes.metot_dizi_string;
 
 public class ikiBoyutluDiziler {
     public static void main(String[] args) {

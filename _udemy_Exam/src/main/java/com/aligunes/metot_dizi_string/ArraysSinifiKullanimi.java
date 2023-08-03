@@ -1,4 +1,4 @@
-package com.aligunes;
+package com.aligunes.metot_dizi_string;
 
 import java.util.Arrays;
 
