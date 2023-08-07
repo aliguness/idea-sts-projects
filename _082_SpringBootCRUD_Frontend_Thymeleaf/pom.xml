@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.aligunes</groupId>
-    <artifactId>_081_SpringBootCRUD_Exception</artifactId>
+    <artifactId>_082_SpringBootCRUD_Frontend_Thymeleaf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>_081_SpringBootCRUD_Exception</name>
-    <description>_081_SpringBootCRUD_Exception</description>
+    <name>_082_SpringBootCRUD_Frontend_Thymeleaf</name>
+    <description>_082_SpringBootCRUD_Frontend_Thymeleaf</description>
     <properties>
         <java.version>20</java.version>
     </properties>
@@ -22,6 +22,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
         <!-- JAVA DOCUMENT -->
@@ -76,6 +80,7 @@
         </dependency>
 
     </dependencies>
+
 
     <build>
         <plugins>

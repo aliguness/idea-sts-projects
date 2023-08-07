@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Service
 @Transactional
+@Service
 public class StudentService {
 
     @Autowired
@@ -24,11 +24,13 @@ public class StudentService {
     }
 
 
-    public ResponseEntity<Student> getOneStudent(Long id) throws ResourceNotFoundException {
+    public ResponseEntity<Student> getOneStudent(Long id)  throws ResourceNotFoundException {
+
         Student student = studentRepository.findById(id)
-                .orElseThrow( ()-> new ResourceNotFoundException("Student not found ID : " + id) );
+                .orElseThrow( ()-> new ResourceNotFoundException("Student not found ID : " + id )   );
 
         return ResponseEntity.ok().body(student);
+        //        return ResponseEntity.ok(student);
     }
 
     public Student createStudent(Student student) {
@@ -49,7 +51,6 @@ public class StudentService {
                 .orElseThrow( ()-> new ResourceNotFoundException("Student not found ID : " + studentInfo.getId()) );
         return ResponseEntity.ok(studentRepository.save(student));
     }
-
 
 
 }

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(origins = "*")
 
 //    http://localhost:8080/api/v1
 @RestController
@@ -33,15 +34,15 @@ public class StudentController {
         return "Merhaba " + studentFirstName + " " + studentLastName;
     }
 
-
-    //    http://localhost:8080/api/v1/students
+    // LIST ALL
+    // GET    http://localhost:8080/api/v1/students
     @GetMapping("/students")
     public List<Student> getAllStudents() {
         return studentService.getAllStudents();
     }
 
 
-    //    http://localhost:8080/api/v1/students/1
+    //   GET  http://localhost:8080/api/v1/students/1
     @GetMapping("/students/{id}")
     public ResponseEntity<Student> getOneStudent(@PathVariable(value = "id") Long id) throws ResourceNotFoundException {
         return studentService.getOneStudent(id);
@@ -52,6 +53,14 @@ public class StudentController {
     @PostMapping("/students")
     public Student createStudent(@RequestBody Student student) {
         return studentService.createStudent(student);
+    }
+
+
+    // DELETE
+    //    http://localhost:8080/api/v1/students/1
+    @DeleteMapping("/students/{id}")
+    public Map<String,Boolean> deleteOneStudent(@PathVariable(value = "id") Long id) throws  ResourceNotFoundException{
+        return studentService.deleteOneStudent(id);
     }
 
 
@@ -71,14 +80,6 @@ public class StudentController {
         }
 
         return null;
-    }
-
-
-    // DELETE
-    //    http://localhost:8080/api/v1/students/1
-    @DeleteMapping("/students/{id}")
-    public Map<String,Boolean> deleteOneStudent(@PathVariable(value = "id") Long id) throws  ResourceNotFoundException{
-        return studentService.deleteOneStudent(id);
     }
 
 }
