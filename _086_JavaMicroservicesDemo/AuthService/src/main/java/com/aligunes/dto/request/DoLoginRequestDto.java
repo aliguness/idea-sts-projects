@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
 //Kaydederken kullanıcıdan alınacak bilgileri içeren DTO
 @Builder // bir sınıftan nesne türetmeyi sağlar.
 @Data //get set metodlarını otomatik tanımlar.
@@ -12,7 +15,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor //dolu constructor oluşturur.
 public class DoLoginRequestDto {
 
+  @NotBlank(message = "Kullanıcı adi boş gecilemez.")
+  @Size(min = 2, max = 50)
   private   String username;
+
   private   String password;
 
 }
