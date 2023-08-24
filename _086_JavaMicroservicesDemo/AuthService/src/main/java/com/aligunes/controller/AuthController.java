@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+import java.util.List;
+
 import static com.aligunes.constant.EndPoints.*;
 
 @RequiredArgsConstructor
@@ -21,6 +23,8 @@ import static com.aligunes.constant.EndPoints.*;
 public class AuthController {
 
     private final AuthService authService;
+
+
     //  http://localhost:9090/auth/login
     @PostMapping(LOGIN)
     public ResponseEntity<String> doLogin (@RequestBody @Valid DoLoginRequestDto dto) {
@@ -57,5 +61,21 @@ public class AuthController {
         return ResponseEntity.ok(authService.doRegister(dto));
     }
 
+
+/* // Tokensiz
+    //  http://localhost:9090/auth/getall
+    @GetMapping(GETALL)
+    public ResponseEntity<List<Auth>> findAll () {
+        return ResponseEntity.ok(authService.findAll());
+    }
+    */
+
+
+    // Tokenli
+    //  http://localhost:9090/auth/getall
+    @GetMapping(GETALL)
+    public ResponseEntity<List<Auth>> findAll (String token) {
+        return ResponseEntity.ok(authService.findAll(token));
+    }
 
 }
