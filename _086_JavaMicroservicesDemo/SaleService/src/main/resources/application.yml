@@ -1,0 +1,32 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+  config:
+    import: "configserver:"
+  application:
+    name: sale-service-application
+
+
+
+
+
+
+
+#server.port: 9092
+#
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    username:  ${POSTGRES_USERNAME}
+#    password: ${POSTGRES_PASSWORD}
+#    url: jdbc:postgresql://localhost:5432/JavaMicroSaleDB
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#
+#authservice:
+#  secrets:
+#    key: ${JAVA_SECRETKEY}
+#    issuer: ${JAVA_ISSUER}
+#    exDate: 300000

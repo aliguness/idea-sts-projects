@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class GlobalExceptionHandler {
 
 
-    private ErrorMessage createErrorMesaj(ErrorType errorType, Exception exception){
-        System.out.println("Hata oluştu...."+exception.getMessage());
-        return ErrorMessage.builder()
+  private ErrorMessage createErrorMesaj(ErrorType errorType, Exception exception){
+      System.out.println("Hata oluştu...."+exception.getMessage());
+       return ErrorMessage.builder()
                 .code(errorType.getCode())
                 .message(errorType.getMessage())
                 .build();

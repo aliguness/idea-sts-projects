@@ -14,14 +14,14 @@ import javax.validation.constraints.NotBlank;
 @AllArgsConstructor //dolu constructor oluşturur.
 public class DoRegisterRequestDto {
 
-    @NotBlank(message = "Kullanici adi bos gecilemez.")
-    private   String username;
+  @NotBlank(message = "Kullanici adi bos gecilemez.")
+  private   String username;
 
-    //  @Email(message = "Email giriniz")
-    private   String email;
+//  @Email(message = "Email giriniz")
+  private   String email;
 
-    // TODO password Regex yap
-    private   String password;
-    private   String repassword;
+  // TODO password Regex yap
+  private   String password;
+  private   String repassword;
 
 }

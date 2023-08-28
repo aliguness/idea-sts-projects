@@ -11,7 +11,7 @@ import javax.persistence.*;
 @AllArgsConstructor //dolu constructor oluşturur.
 @ToString
 @Entity
-@Table(name = "tblauth")
+@Table(name = "tbl_auth")
 public class Auth {
 
     @Id

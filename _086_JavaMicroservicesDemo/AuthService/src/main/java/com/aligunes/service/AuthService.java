@@ -1,10 +1,14 @@
 package com.aligunes.service;
 
+
 import com.aligunes.dto.request.DoLoginRequestDto;
 import com.aligunes.dto.request.DoRegisterRequestDto;
 import com.aligunes.exception.AuthServiceException;
 import com.aligunes.exception.ErrorType;
+import com.aligunes.manager.IUserProfileManager;
 import com.aligunes.mapper.IAuthMapper;
+import com.aligunes.rabbitmq.model.SaveAuthModel;
+import com.aligunes.rabbitmq.producer.CreateUserProducer;
 import com.aligunes.repository.IAuthRepository;
 import com.aligunes.repository.entity.Auth;
 import com.aligunes.utility.JwtTokenManager;
@@ -21,12 +25,21 @@ public class AuthService extends ServiceManager <Auth, Long> {
 
     private final JwtTokenManager jwtTokenManager;
 
+    private final IUserProfileManager userProfileManager;
 
 
-    public AuthService(IAuthRepository repository, JwtTokenManager jwtTokenManager) {
+    private  final CreateUserProducer createUserProducer;
+
+
+    public AuthService(IAuthRepository repository,
+                       JwtTokenManager jwtTokenManager,
+                       IUserProfileManager userProfileManager,
+                       CreateUserProducer createUserProducer) {
         super(repository);
         this.repository = repository;
         this.jwtTokenManager = jwtTokenManager;
+        this.userProfileManager = userProfileManager;
+        this.createUserProducer = createUserProducer;
     }
 
     public String doLogin(DoLoginRequestDto dto) {
@@ -35,20 +48,43 @@ public class AuthService extends ServiceManager <Auth, Long> {
         if(auth.isEmpty())
             throw new AuthServiceException(ErrorType.LOGIN_USERNAME_OR_PASSWORD_NOT_EXISTS);
 
-        // return    auth.get().getId().toString();
+       // return    auth.get().getId().toString();
         return  jwtTokenManager.createToken(auth.get().getId()).get();
     }
 
     public Auth doRegister(DoRegisterRequestDto dto) {
 
         Auth auth = IAuthMapper.INSTANCE.toAuth(dto);
+
         auth.setCreateAt(System.currentTimeMillis());
         auth.setState(true);
+
         save(auth);
+
+        // DİĞER SERVİCE GİDİLİYOR
+        //  http://localhost:9093/user/save
+/*
+        userProfileManager.save(UserProfileSaveRequestDto.builder()
+                        .authid(auth.getId())
+                        .username(auth.getUsername())
+                        .email(auth.getEmail())
+                .build() );
+*/
+
+//        userProfileManager.save(IAuthMapper.INSTANCE.fromAuth(auth));
+
+
+        // Mesajı RabbitMQ'ya gönderdik.
+        createUserProducer.convertAndSend(SaveAuthModel.builder()
+                .authid(auth.getId())
+                .username(auth.getUsername())
+                .email(auth.getEmail())
+                .build());
+
         return auth;
     }
 
-    // Tokensiz
+     // Tokensiz
 /*
     public List<Auth> findAll() {
         return repository.findAll();
