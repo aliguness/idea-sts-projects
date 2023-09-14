@@ -5,7 +5,7 @@ public class EndPoints {
     public static final String DEV="/dev";
     public static final String API="/api";
 
-    public static final String USER="/user";
+    public static final String USER = "/user";
 
     public static final String SAVE="/save";
     public static final String UPDATE="/update";
@@ -14,4 +14,5 @@ public class EndPoints {
     public static final String GETBYID="/getbyid";
     public static final String GETBYAD="/getbyad";
     public static final String GETALLBYIL="/getAllByIl";
+
 }

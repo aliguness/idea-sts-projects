@@ -1,6 +1,5 @@
 package com.aligunes.rabbitmq.consumer;
 
-
 import com.aligunes.rabbitmq.model.SaveAuthModel;
 import com.aligunes.repository.entity.UserProfile;
 import com.aligunes.service.UserProfileService;
@@ -24,5 +23,4 @@ public class CreateUserConsumer {
                         .build()
         );
     }
-
 }

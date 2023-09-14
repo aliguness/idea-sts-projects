@@ -1,6 +1,3 @@
-/**
- * Sub build.gradle
- */
 dependencies {
     /**
      * Bu sub module için gerekli olan kütüphaneleri ekledik.
@@ -10,4 +7,5 @@ dependencies {
     implementation libs.springCloudConfigClient
     implementation libs.springBootAmqp
     implementation libs.springDataRedis
+
 }

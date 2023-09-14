@@ -18,7 +18,7 @@ public class HelloController {
     // http://localhost:9091/info
     @GetMapping("/info")
     public String info() {
-        return "INFO: Product Service";
+        return "INFO: Auth Service";
     }
 
 }

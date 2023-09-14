@@ -9,4 +9,6 @@ dependencies {
     implementation libs.springBootDataJpa
     implementation libs.springCloudConfigClient
     implementation libs.springBootAmqp
+
+
 }

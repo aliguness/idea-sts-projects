@@ -12,22 +12,16 @@ import java.util.Optional;
 
 @Component
 public class JwtTokenManager {
+    /*  1.Durum
+    String secretKey = "Ankara_06";
+    String issuer = "Adana_01";
+    Long exDate = 1000L * 60 * 1; // 1 dakika*/
 
-    // 1. durum
-   /*
-    String secretKey = "123456789Abc";
-    String issuer = "KurumAdi";
-    Long exDate = 1000L * 60 * 5; // 5 dakika
-    */
-
-   // 2. durum
-
+        //2.Durum
     @Value("${authservice.secrets.key}")
     String secretKey;
-
     @Value("${authservice.secrets.issuer}")
     String issuer;
-
     @Value("${authservice.secrets.exDate}")
     Long exDate;
 

@@ -7,19 +7,12 @@ spring:
   application:
     name: auth-service-application
 
-
-
-
-
-
-
-
 #server.port: 9090
 #
 #spring:
 #  datasource:
 #    driver-class-name: org.postgresql.Driver
-#    username:  ${POSTGRES_USERNAME}
+#    username: ${POSTGRES_USERNAME}
 #    password: ${POSTGRES_PASSWORD}
 #    url: jdbc:postgresql://localhost:5432/JavaMicroAuthDB
 #  jpa:
@@ -32,30 +25,20 @@ spring:
 #    issuer: ${JAVA_ISSUER}
 #    exDate: 300000
 
-
-
-
 #spring:
 #  datasource:
 #    driver-class-name: org.postgresql.Driver
-#    username:  postgres
+#    username: postgres
 #    password: 123456789
 #    url: jdbc:postgresql://localhost:5432/JavaMicroAuthDB
 #  jpa:
 #    hibernate:
 #      ddl-auto: update
-
-
-
-
 #authservice:
 #  secrets:
 #    key: "123456789Abc"
 #    issuer: "KurumAdi"
-#    exDate:  1000L * 60 * 5
-
-
-
+#    exDate: 1000L * 60 * 5
 
 
 #spring:

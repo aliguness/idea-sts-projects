@@ -15,14 +15,7 @@ public interface IAuthMapper {
 
     Auth toAuth(final DoRegisterRequestDto dto);
 
-    /*
-    @Mappings(
-            @Mapping(target = "firstname", source = "first_name"),
-            @Mapping(target = "lastname", source = "last_name"),
-            @Mapping(target = "fullAddress", source = "address")
-    )
-    */
-    @Mapping(target = "authid", source = "id")
+    @Mapping(target = "authid",source = "id")
     UserProfileSaveRequestDto fromAuth (final Auth auth);
 
 }

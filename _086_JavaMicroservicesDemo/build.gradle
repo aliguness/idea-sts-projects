@@ -72,11 +72,13 @@ allprojects {
         annotationProcessor libs.mapStructProcessor
         implementation libs.swaggerApi
         implementation libs.jwt
+        implementation libs.thymeleaf
         implementation libs.springCloudOpenfeign
         implementation libs.springCloudConfigClient
         implementation libs.springSleuthZipkin
         implementation libs.springSleuth
-//      implementation libs.thymeleaf
+
+
     }
 }
 

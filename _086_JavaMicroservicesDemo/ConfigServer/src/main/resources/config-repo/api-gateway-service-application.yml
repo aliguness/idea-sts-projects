@@ -9,19 +9,19 @@ spring:
     enabled: true
     base-url: http://localhost:9411
     service:
-      name: api-gateway
+      name: auth-service
   cloud:
     gateway:
 #      httpclient:
 #        ssl:
 #          use-insecure-trust-manager: true
       default-filters:
-        #        http://localhost/auth/findById/1
-        #        /(?<segment>.*) :auth/findById/1
-        #        /$\{segment} : bu kısım yakalanan segmenti uri'ye ekleyecek.
-        #        http://localhost:9090/auth/findById/1
-        - RewritePath= /(?<segment>.*), /$\{segment}
+        - RewritePath=/(?<segment>.*), /$\{segment}
       routes:
+        - id: error-route
+          uri: forward:/error.html
+          predicates:
+            - Path=/error/**
         - id: auth-service
           uri: http://localhost:9090
           predicates:

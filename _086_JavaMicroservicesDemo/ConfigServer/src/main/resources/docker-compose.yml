@@ -10,7 +10,7 @@ volumes:
 
 services:
 
-# docker run -d -p 9411:9411 --name my-zipkin openzipkin/zipkin
+  # docker run -d -p 9411:9411 --name my-zipkin openzipkin/zipkin
   zipkin:
     image: openzipkin/zipkin:latest
     container_name: my-zipkin
@@ -46,13 +46,30 @@ services:
           memory: 128M
 
 
-
-
-#  docker run --name my-redis -p 6379:6379 -d redis
-#  docker run --name my-redis -p 6379:6379  --memory=128m  -d redis
+  #  docker run --name my-redis -p 6379:6379 -d redis
+  #  docker run --name my-redis -p 6379:6379  --memory=128m  -d redis
   redis:
     image: redis:latest
     container_name: my-redis
     restart: always
     ports:
       - '6379:6379'
+
+
+  # docker run -d --name my-elasticsearch --net somenetwork -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.11.3
+  elasticsearch:
+    image: elasticsearch:7.17.3
+    container_name: my-elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      discovery.type: single-node
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 256M

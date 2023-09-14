@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-@Builder // bir sınıftan nesne türetmeyi sağlar.
-@Data //get set metodlarını otomatik tanımlar.
-@NoArgsConstructor //boş constructor oluşturur.
-@AllArgsConstructor //dolu constructor oluşturur.
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class SaveAuthModel implements Serializable {
 
     private Long authid;

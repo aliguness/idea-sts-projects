@@ -12,7 +12,6 @@ public class CreateUserProducer {
     public final RabbitTemplate rabbitTemplate;
 
     public void convertAndSend(SaveAuthModel model){
-        rabbitTemplate.convertAndSend("direct-exchange-auth","save-binding-key", model);
+        rabbitTemplate.convertAndSend("direct-exchange-auth","save-binding-key",model);
     }
-
 }

@@ -1,3 +1,9 @@
+server:
+  error:
+    path: /error
+    whitelabel:
+      enabled: false
+
 spring:
   main:
     web-application-type: reactive
@@ -8,3 +14,4 @@ spring:
     import: "configserver:"
   application:
     name: api-gateway-service-application
+
